@@ -1,0 +1,24 @@
+Una aerolínea pequeña necesita un sistema de reservas de pasajes a diferentes países, y requiere un archivo con la información de los pasajes sacados en las últimas 24 horas. 
+Deben crear un sistema de reservas para generar esos archivos
+El archivo en cuestión es del tipo valores separados por coma (csv por su siglas en inglés), donde los campos están compuestos por: id, nombre, email, país de destino, hora del vuelo y precio. 
+
+Requerimiento 1 - Cargar archivos: 
+Implementar un módulo para leer el archivo donde se encuentran los tickets del día.
+Requerimiento 2 - Crear: 
+Un método para crear un nuevo ticket añadir al registro.
+func (b *bookings) Create(t Ticket) (Ticket, error) {}
+Requerimiento 3 - Leer: 
+Un método para traer un ticket a través de su campo id.
+func (b *bookings) Read(id int) (Ticket, error) {}
+Requerimiento 4 - Update: 
+Un método para actualizar los campos de un ticket.
+func (b *bookings) Update(id int, t Ticket) (Ticket, error) {}
+Requerimiento 5 - Delete: 
+Un método para eliminar un campo por su id.
+func (b *bookings) Delete(id int) (int, error) {}
+
+
+
+
+
+
