@@ -1,3 +1,3 @@
-module github.com/bootcamp-go/hackaton-go-bases
+module github.com/MarcelaCuellarML/hackatonGoBases
 
 go 1.18
